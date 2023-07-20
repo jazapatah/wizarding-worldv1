@@ -10,3 +10,4 @@ Enunciado e instrucciones:
 7. Implementar el css responsive
 
 ### Nota: Pueden aplicar recursos web externos
+Pondré en práctica la metodología BEM (Bloque Elemento Modificador)
