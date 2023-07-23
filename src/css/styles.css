@@ -1,3 +1,10 @@
+/* Configuration */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Fonts for the project */
 /* Bluu Next */
 @font-face {
@@ -224,4 +231,17 @@
         url('../fonts/sofia-pro/SofiaProBold-Italic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
+}
+
+/* Variables */
+:root {
+    --lightColor:#6B63b5;
+    --darkColor: #514A92;
+    --colorFooter: #02032c;
+    --bodyFont: 'Sofia Pro', sans-serif;
+    --titleFont:'bluu_nexttitling', serif;
+    --btnTextColor: #F9F4F2;
+    --backgroundColorPrimary: #242633;
+    --backgroundColorSecondary: #696B78;
+    --backgroundSpotlight: #10141b;
 }
