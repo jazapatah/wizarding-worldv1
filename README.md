@@ -11,3 +11,8 @@ Enunciado e instrucciones:
 
 ### Nota: Pueden aplicar recursos web externos
 Pondré en práctica la metodología BEM (Bloque Elemento Modificador)
+
+<!-- Enlaces de interés:
+Wiki: https://harrypotter.fandom.com/wiki/Main_Page
+WW: https://www.wizardingworld.com/
+ -->
