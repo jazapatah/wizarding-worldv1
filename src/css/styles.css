@@ -3,46 +3,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* Fonts for the project */
 /* Bluu Next */
 @font-face {
-    font-family: 'bluu', serif;
+    font-family: 'bluu';
     src: url('../fonts/bluu-next/bluunext-bold-webfont.woff2') format('woff2'),
          url('../fonts/bluu-next/bluunext-bold-webfont.woff') format('woff'),
          url('../fonts/bluu-next/bluunext-bold.ttf') format('truetype'),
          url('../fonts/bluu-next/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'bluu', serif;
+    font-family: 'bluu';
     src: url('../fonts/bluu-next/bluunext-bolditalic-webfont.woff2') format('woff2'),
          url('../fonts/bluu-next/bluunext-bolditalic-webfont.woff') format('woff'),
          url('../fonts/bluu-next/bluunext-bolditalic.ttf') format('truetype'),
          url('../fonts/bluu-next/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
     font-weight: normal;
     font-style: italic;
-
 }
 
 
 @font-face {
-    font-family: 'bluu_nexttitling', serif;
+    font-family: 'bluu_nexttitling';
     src: url('../fonts/bluu-next/BluuNext-Titling.ttf') format('truetype'),
         url('../fonts/bluu-next/bluunext-titling.woff2') format('woff2'),
         url('../fonts/bluu-next/bluunext-titling.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* Sofia Pro */
 @font-face {
-    font-family: 'Sofia Pro Semi', sans-serif;
+    font-family: 'Sofia Pro Semi';
     src: url('../fonts/sofia-pro/SofiaProSemiBold.eot');
     src: local('Sofia Pro Semi Bold'), local('SofiaProSemiBold'),
         url('../fonts/sofia-pro/SofiaProSemiBold.eot?#iefix') format('embedded-opentype'),
@@ -54,7 +52,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProRegular-Italic.eot');
     src: local('Sofia Pro Regular Italic'), local('SofiaProRegular-Italic'),
         url('../fonts/sofia-pro/SofiaProRegular-Italic.eot?#iefix') format('embedded-opentype'),
@@ -66,7 +64,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro Semi', sans-serif;
+    font-family: 'Sofia Pro Semi';
     src: url('../fonts/sofia-pro/SofiaProSemiBold-Italic.eot');
     src: local('Sofia Pro Semi Bold Italic'), local('SofiaProSemiBold-Italic'),
         url('../fonts/sofia-pro/SofiaProSemiBold-Italic.eot?#iefix') format('embedded-opentype'),
@@ -78,7 +76,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProLight.eot');
     src: local('Sofia Pro Light'), local('SofiaProLight'),
         url('../fonts/sofia-pro/SofiaProLight.eot?#iefix') format('embedded-opentype'),
@@ -90,7 +88,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProExtraLight.eot');
     src: local('Sofia Pro ExtraLight'), local('SofiaProExtraLight'),
         url('../fonts/sofia-pro/SofiaProExtraLight.eot?#iefix') format('embedded-opentype'),
@@ -102,7 +100,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProMedium-Italic.eot');
     src: local('Sofia Pro Medium Italic'), local('SofiaProMedium-Italic'),
         url('../fonts/sofia-pro/SofiaProMedium-Italic.eot?#iefix') format('embedded-opentype'),
@@ -114,7 +112,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProUltraLight-Italic.eot');
     src: local('Sofia Pro UltraLight Italic'), local('SofiaProUltraLight-Italic'),
         url('../fonts/sofia-pro/SofiaProUltraLight-Italic.eot?#iefix') format('embedded-opentype'),
@@ -126,7 +124,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProRegular.eot');
     src: local('Sofia Pro Regular'), local('SofiaProRegular'),
         url('../fonts/sofia-pro/SofiaProRegular.eot?#iefix') format('embedded-opentype'),
@@ -138,7 +136,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProMedium.eot');
     src: local('Sofia Pro Medium'), local('SofiaProMedium'),
         url('../fonts/sofia-pro/SofiaProMedium.eot?#iefix') format('embedded-opentype'),
@@ -150,7 +148,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProBold.eot');
     src: local('Sofia Pro Bold'), local('SofiaProBold'),
         url('../fonts/sofia-pro/SofiaProBold.eot?#iefix') format('embedded-opentype'),
@@ -162,7 +160,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProExtraLight-Italic.eot');
     src: local('Sofia Pro ExtraLight Italic'), local('SofiaProExtraLight-Italic'),
         url('../fonts/sofia-pro/SofiaProExtraLight-Italic.eot?#iefix') format('embedded-opentype'),
@@ -174,7 +172,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProLight-Italic.eot');
     src: local('Sofia Pro Light Italic'), local('SofiaProLight-Italic'),
         url('../fonts/sofia-pro/SofiaProLight-Italic.eot?#iefix') format('embedded-opentype'),
@@ -186,7 +184,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProBlack-Italic.eot');
     src: local('Sofia Pro Black Italic'), local('SofiaProBlack-Italic'),
         url('../fonts/sofia-pro/SofiaProBlack-Italic.eot?#iefix') format('embedded-opentype'),
@@ -198,7 +196,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProBlack.eot');
     src: local('Sofia Pro Black'), local('SofiaProBlack'),
         url('../fonts/sofia-pro/SofiaProBlack.eot?#iefix') format('embedded-opentype'),
@@ -210,7 +208,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProUltraLight.eot');
     src: local('Sofia Pro UltraLight'), local('SofiaProUltraLight'),
         url('../fonts/sofia-pro/SofiaProUltraLight.eot?#iefix') format('embedded-opentype'),
@@ -222,7 +220,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro';
     src: url('../fonts/sofia-pro/SofiaProBold-Italic.eot');
     src: local('Sofia Pro Bold Italic'), local('SofiaProBold-Italic'),
         url('../fonts/sofia-pro/SofiaProBold-Italic.eot?#iefix') format('embedded-opentype'),
@@ -238,17 +236,20 @@
     --lightColor:#6B63b5;
     --darkColor: #514A92;
     --colorFooter: #02032c;
-    --bodyFont: 'Sofia Pro', sans-serif;
-    --titleFont:'bluu_nexttitling', serif;
+    --bodyFont: 'Sofia Pro';
+    --titleFont:'bluu_nexttitling';
     --btnTextColor: #F9F4F2;
     --backgroundColorPrimary: #242633;
     --backgroundColorSecondary: #696B78;
     --backgroundSpotlight: #10141b;
 }
 
+/* Styles */
 html {
     overflow-x: hidden;
     max-width: 100%;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
 }
 
 header {
@@ -257,9 +258,10 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    font-family: 'Sofia Pro Regular', sans-serif;
+    font-family: var(--bodyFont);
 }
 
+/* Navbar */
 .container__menu {
     width: 100%;
     height: 70px;
@@ -301,6 +303,75 @@ nav > ul > li > a {
     display: flex;
     padding: 14px;
     color: #fff;
-    font-size: 14px;
+    text-transform: uppercase;
+    font-size: 15px;
     transition: all 300ms ease;
 }
+
+/* effect pointer on navbar */
+nav > ul > li > a:hover {
+    transform: scale(1,1);
+    background: var(--lightColor);
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.active {
+    background-color: var(--lightColor);
+}
+
+/* Sub menu */
+nav ul li ul {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    background: var(--backgroundColorPrimary);
+    position: absolute;
+    top: 85px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    transition: all 300ms ease;
+    z-index: 10;
+}
+
+nav ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 60px; /* 70px */
+}
+
+/* wedge of submenu */
+nav ul li ul::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid var(--backgroundColorPrimary);
+    position: absolute;
+    top: -12px;
+    left: 20px;
+} 
+
+nav ul li ul li a {
+    display: flex;
+    color: #F9F4F2;
+    padding: 5px;
+    padding-left: 14px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+}
+
+nav ul li ul li a:hover {
+    background-color: var(--lightColor);
+    transform: scale(1,1);
+    padding-left: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* Slider */
