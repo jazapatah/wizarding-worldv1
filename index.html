@@ -3,51 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <!-- link to Framework Bootstrap and icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- link to own css -->
     <link rel="stylesheet" href="./src/css/styles.css">
-    <!-- Icons Kit of Fontawesome -->
-    <script src="https://kit.fontawesome.com/8b8bde58a3.js" crossorigin="anonymous"></script>
     <title>Wizarding World</title>
 </head>
 <body>
-    <!-- Home, Characters>HP, FB, Books, Films>HP, FB, Locations, Bestiary, YT, Fb, Ig, TW  -->
     <!-- Start Navbar -->
     <header>
-        <div class="container__menu">
-            <div class="header__superior">
-                <div class="logo">
-                    <img src="./src/img/logo_wizarding_world.png" alt="logo_wizarding_world">
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="#characters">Characters</a>
-                            <!-- Dropdown menu-->
-                            <ul>
-                                <li><a href="#charactersHP">Harry Potter</a></li>
-                                <li><a href="#charactersFB">Fantastic Beast</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#books">Books</a></li>
-                        <li><a href="#films">Films</a>
-                            <!-- Dropdown menu-->
-                            <ul>
-                                <li><a href="#filmsHP">Harry Potter</a></li>
-                                <li><a href="#filmsFB">Fantastic Beast</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="./src/pages/locations.html">Locations</a></li>
-                        <li><a href="./src/pages/bestiary.html">Bestiary</a></li>
-                        <li><a href="https://www.youtube.com/channel/UChPRO1CB_Hvd0TvKRU62iSQ" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li><a href="https://www.facebook.com/wizardingworld" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="https://www.instagram.com/wizardingworld" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="https://twitter.com/wizardingworld"target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./src/img/logo_wizarding_world.png" alt="logo" id="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      CHARACTERS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#charactersHP">HARRY POTTER</a></li>
+                      <li><a class="dropdown-item" href="#charactersFB">FANTASTIC BEAST</a></li>
                     </ul>
-                </nav>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#books">BOOKS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#films" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      FILMS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#charactersHP">HARRY POTTER</a></li>
+                      <li><a class="dropdown-item" href="#charactersFB">FANTASTIC BEAST</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./src/pages/locations.html">LOCATIONS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./src/pages/bestiary.html">BESTIARY</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light me-3" type="submit"><i class="bi bi-magic"></i></button>
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./src/pages/bestiary.html"><i class="bi bi-youtube"></i></a>
+                    </li>
+                </ul>
+              </div>
             </div>
-        </div>
+        </nav>
     </header>
     <!-- End Navbar -->
-    <script src="./src/js/app.js"></script> <!-- Enlace con el Script de Js para el botón "Hacia arriba" -->
+
+
+
+
+    <!-- Start Navbar -->
+    <!-- End Navbar -->
+
+
+    <!-- Link to script of Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Link to script own js -->
+    <script src="./src/js/app.js"></script>
 </body>
 </html>
