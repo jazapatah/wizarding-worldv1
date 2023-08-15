@@ -238,6 +238,7 @@
     --colorFooter: #02032c;
     --bodyFont: 'Sofia Pro';
     --titleFont:'bluu_nexttitling';
+    --subtitleFont:'bluu';
     --btnTextColor: #F9F4F2;
     --backgroundColorPrimary: #242633;
     --backgroundColorSecondary: #696B78;
@@ -262,7 +263,6 @@ nav {
     width: 4.8rem;
     height: auto;
     margin-right: 4rem;
-    filter: brightness();
 }
 
 #logo:hover {
@@ -293,6 +293,10 @@ ul > li > a {
     font-family: var(--bodyFont);
 }
 
+.subtitleF {
+    font-family: var(--subtitleFont);
+}
+
 /* button scroll to top */
 #scrollTop {
     display: none;
@@ -317,4 +321,38 @@ ul > li > a {
 
 #introduction {
     background-color: var(--backgroundColorPrimary);
+}
+
+/* characters section with glassmorphism */
+#characters {
+    background: url('../img/abstract_1.jpg') no-repeat center;
+    background-size:cover;
+}
+
+.glass {
+    background: #ffffff10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+}
+
+/* characters played by two actors */
+.duo {
+    cursor: pointer;
+    margin:0 auto;
+}
+
+.duo img:nth-child(2), .duo h6:last-child {
+    display: none;
+}
+
+.duo:hover img:nth-child(2), .duo:hover h6:last-child {
+    display: inline;
+}
+
+.duo:hover h6:last-child {
+    display: block;
+}
+
+.duo:hover img:first-child, .duo:hover h6:nth-of-type(1) {
+    display: none;
 }
