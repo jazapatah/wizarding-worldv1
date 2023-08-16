@@ -356,3 +356,25 @@ ul > li > a {
 .duo:hover img:first-child, .duo:hover h6:nth-of-type(1) {
     display: none;
 }
+
+/* books */
+#books {
+    background-color: var(--backgroundSpotlight);
+    
+}
+
+/* Zoom effect */
+/* borders hidden with effect */
+/* .cut {
+    overflow: hidden;
+} */
+
+.zoom {
+    transition: transform 300ms;
+    
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
