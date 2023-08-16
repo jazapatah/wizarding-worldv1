@@ -360,14 +360,13 @@ ul > li > a {
 /* books */
 #books {
     background-color: var(--backgroundSpotlight);
-    
 }
 
 /* Zoom effect */
 /* borders hidden with effect */
-/* .cut {
+.cut {
     overflow: hidden;
-} */
+}
 
 .zoom {
     transition: transform 300ms;
@@ -377,4 +376,9 @@ ul > li > a {
 .zoom:hover {
     transform: scale(1.2);
     cursor: pointer;
+}
+
+/* Films */
+#films {
+    background-color: var(--backgroundColorSecondary);
 }
