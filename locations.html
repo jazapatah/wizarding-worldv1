@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./src/img/wizarding_w_icon.png">
+    <!-- link to Framework Bootstrap and icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- link to own css -->
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Wizarding World - Locations</title>
+</head>
+<body>
+    <!-- Start Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./src/img/logo_wizarding_world.png" alt="logo" id="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="./index.html">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      CHARACTERS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./index.html#charactersHP">HARRY POTTER</a></li>
+                      <li><a class="dropdown-item" href="./index.html#charactersFB">FANTASTIC BEAST</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./index.html#books">BOOKS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#films" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      FILMS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./index.html#filmsHP">HARRY POTTER</a></li>
+                      <li><a class="dropdown-item" href="./index.html#filmsFB">FANTASTIC BEAST</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light active" href="#">LOCATIONS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./bestiary.html">BESTIARY</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light me-3" type="submit"><i class="bi bi-magic"></i></button>
+                </form>
+                <!-- Social Networks -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="https://www.youtube.com/channel/UChPRO1CB_Hvd0TvKRU62iSQ" target="_blank"><i class="bi bi-youtube"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="https://www.facebook.com/wizardingworld" target="_blank"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="https://www.instagram.com/wizardingworld" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="https://twitter.com/wizardingworld" target="_blank"><i class="bi bi-twitter"></i></a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Navbar -->
+    <!-- Start Hero Image -->
+
+    <!-- End Hero Image -->
+    <!-- Start Scroll to top button -->
+    <button onclick="topFunction()" id="scrollTop" class="btn btn-danger" title="Go to top">
+        <i class="bi bi-chevron-double-up"></i>
+    </button>
+    <!-- End Scroll to top button -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container__footer">
+          <div class="container__up d-flex justify-content-between bodyF">
+            <div class="links d-flex justify-content-around">
+              <div class="bay">
+                <a href="#footer">About Us</a>
+                <a href="#footer">Manage preferences</a>
+              </div>
+              <div class="bay">
+                <a href="#footer">Press</a>
+                <a href="#footer">FAQs</a>
+                <a href="#footer">Terms & Conditions</a>
+              </div>
+              <div class="bay">
+                <a href="#footer">Ad Choices</a>
+                <a href="#footer">Privacy & Cookies</a>
+                <a href="#footer">Children's Privacy Policy</a>
+              </div>
+              <div class="bay">
+                <a href="#footer">Legals</a>
+              </div>
+            </div>
+            <div class="logo__footer d-flex align-items-baseline justify-content-end">
+              <img src="./src/img/logo_wizarding_world.png" alt="logo_wizarding_world_footer">
+            </div>
+          </div>
+          <hr class="divider__footer">
+          <div class="container__down d-flex">
+            <div class="disclaimer bodyF col-md-9">
+              <p>© WIZARDING WORLD DIGITAL 2023</p>
+              <p>Looking for Pottermore? Wizarding World is the new official home of Harry Potter & Fantastic Beasts. Join the Fan Club and bring your traits with you.</p>
+              <p>Brought to you by Wizarding World Digital, a partnership between Warner Bros. and Pottermore. Delivering the latest news and official products from the Wizarding World and our partners.</p>
+              <p>TM & © WBEI. WIZARDING WORLD Publishing and Theatrical Stage Rights © J.K. Rowling.</p>
+            </div>
+            <div class="social_networks d-flex justify-content-between">
+              <a class="nav-link text-light" href="https://www.youtube.com/channel/UChPRO1CB_Hvd0TvKRU62iSQ" target="_blank">
+                <div class="social__links">
+                  <i class="bi bi-youtube"></i>
+                </div>
+              </a>
+              <a class="nav-link text-light" href="https://www.facebook.com/wizardingworld" target="_blank">
+                <div class="social__links">
+                  <i class="bi bi-facebook"></i>
+                </div>
+              </a>
+              <a class="nav-link text-light" href="https://www.instagram.com/wizardingworld" target="_blank">
+                <div class="social__links">
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </a>
+              <a class="nav-link text-light" href="https://twitter.com/wizardingworld" target="_blank">
+                <div class="social__links">
+                  <i class="bi bi-twitter"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Signature -->
+        <div class="signature text-center mt-3">
+          <span class="text-light text-center bodyF">Created by: <a href="mailto:jotan.alexander@gmail.com" class="text-light text-center bodyF">jotan.alexander &copy; 2023</a></span>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    <!-- Link to script of Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Link to script own js -->
+    <script src="./src/js/app.js"></script>
+</body>
+</html>
