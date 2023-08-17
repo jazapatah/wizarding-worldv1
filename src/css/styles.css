@@ -388,6 +388,16 @@ ul > li > a {
     cursor: pointer;
 }
 
+.translate {
+    transition: transform 300ms;
+    
+}
+
+.translate:hover {
+    transform: translateY(7px);
+    cursor: pointer;
+}
+
 /* films */
 #films {
     background-color: var(--backgroundColorSecondary);
@@ -450,6 +460,7 @@ footer {
     margin-top: 19px;
     margin-left: 20px;
     width: 20vw;
+    max-height: 40px;
 }
 
 .social__links {
@@ -502,11 +513,30 @@ footer {
 }
 
 /* Locations */
-#locations, #beasts {
+#locations, #bestiary {
     background: url('../img/scroll.jpg') no-repeat center;
     background-size: cover;
 }
 
+.logo_HP_FB {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.logo_HP_FB img {
+    width: 100%;
+    filter: brightness(1.5);
+}
+
 #locations p {
     text-align: justify;
+}
+
+/* Bestiary */
+#bestiary figure h3 {
+    font-family: var(--subtitleFont);
+}
+
+#bestiary figure h6 {
+    font-family: var(--bodyFont);
 }
