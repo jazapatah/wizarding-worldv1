@@ -378,6 +378,16 @@ ul > li > a {
     cursor: pointer;
 }
 
+.zoom-1 {
+    transition: transform 300ms;
+    
+}
+
+.zoom-1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 /* films */
 #films {
     background-color: var(--backgroundColorSecondary);
@@ -459,3 +469,44 @@ footer {
 
 /* Styles for locations and bestiary */
 /* Hero Image */
+.container__hero {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,auto);
+}
+
+#hogwarts, #beasts {
+    width: 98.74vw;
+    grid-column: 1/10;
+    grid-row: 1/10;
+}
+
+#overlay {
+    grid-column: 1/11;
+    grid-row: 1/11;
+    background-color:var(--lightColor);
+    opacity: 0.5;
+    z-index: 7;
+}
+
+.text__overlay {
+    z-index: 7;
+    font-size: 2rem;
+    font-size: 2rem;
+    grid-column: 2/9;
+    grid-row: 5/7;
+}
+
+.text__overlay p {
+    font-size: 1.5rem;
+}
+
+/* Locations */
+#locations, #beasts {
+    background: url('../img/scroll.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#locations p {
+    text-align: justify;
+}
