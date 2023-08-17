@@ -378,7 +378,83 @@ ul > li > a {
     cursor: pointer;
 }
 
-/* Films */
+/* films */
 #films {
     background-color: var(--backgroundColorSecondary);
 }
+
+/* footer */
+footer {
+    background-color: var(--backgroundSpotlight);
+    padding: 40px 50px;
+}
+
+.container__footer {
+    padding: 50px 80px;
+    border: 1px solid var(--backgroundColorSecondary);
+}
+
+.container__up {
+    padding: 0px 0px 12px;
+}
+
+.links a {
+    font-size: 14px;
+    color: var(--btnTextColor);
+    text-decoration: none;
+    margin-right: 80px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.logo__footer {
+    width: 9vw;
+}
+
+.logo__footer img {
+    width: 100%;
+    filter: brightness(1.60);
+}
+
+.divider__footer {
+    color: var(--backgroundColorSecondary);
+    margin: 5px 0px;
+}
+
+.container__down {
+    margin: 20px 0px 0px;
+}
+
+.disclaimer p {
+    margin: 16px 0px;
+    line-height: 1.33;
+    font-size: 14px;
+    color: #9FA1AD;
+}
+
+.social_networks {
+    margin-top: 19px;
+    margin-left: 20px;
+    width: 20vw;
+}
+
+.social__links {
+    background-color: var(--backgroundColorPrimary);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.signature {
+    color: var(--btnTextColor);
+}
+
+/* Styles for locations and bestiary */
